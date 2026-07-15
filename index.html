@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Game</title>
+    <style>
+    canvas {
+        border:25px solid black;
+    }
+    </style>
+</head>
+<body onload="gameLoop()">
+    <canvas></canvas>
+    <script src="src/config.js"></script>
+    <script src="src/classes/Car.js"></script>
+    <script src="src/classes/Road.js"></script>
+    <script src="src/classes/Text.js"></script>
+    <script src="src/game.js"></script>
+    <br>
+    <button onClick="window.location.reload()">Reset</button>
+</body>
+</html>
