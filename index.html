@@ -1,23 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car Game</title>
-    <style>
-    canvas {
-        border:25px solid black;
-    }
-    </style>
-</head>
-<body onload="gameLoop()">
-    <canvas></canvas>
-    <script src="src/config.js"></script>
-    <script src="src/classes/Car.js"></script>
-    <script src="src/classes/Road.js"></script>
-    <script src="src/classes/Text.js"></script>
-    <script src="src/game.js"></script>
-    <br>
-    <button onClick="window.location.reload()">Reset</button>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Canvas Car Game</title>
+        <style>
+            canvas {
+                border: 25px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas></canvas>
+        <!-- Load config -->
+        <script src="src/config.js" defer></script>
+        <!-- Load classes -->
+        <script src="src/classes/Car.js" defer></script>
+        <script src="src/classes/Road.js" defer></script>
+        <script src="src/classes/Text.js" defer></script>
+        <!-- Load main -->
+        <script src="src/main.js" defer></script>
+        <br />
+        <button type="reset" onClick="window.location.reload()">Reset</button>
+    </body>
 </html>
