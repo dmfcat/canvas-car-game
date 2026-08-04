@@ -11,7 +11,7 @@ The player car can be controlled with WASD or arrow keys. Earn score by avoiding
 1. Download or clone this repo.
 
 ```bash
-git clone https://github.com/<userid>/canvas-car-game
+git clone https://github.com/dmfcat/canvas-car-game
 ```
 
 2. Open `index.html` in your web browser of choice.
