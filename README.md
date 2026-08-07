@@ -18,4 +18,4 @@ git clone https://github.com/dmfcat/canvas-car-game
 
 ## Licence
 
-[`MIT`](LICENCE)
+[MIT](LICENCE)
