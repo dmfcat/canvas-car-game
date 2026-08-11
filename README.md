@@ -6,7 +6,9 @@ An arcade inspired game made with JS and HTML canvas, playable within a web brow
 
 The player car can be controlled with WASD or arrow keys. Earn score by avoiding traffic and not crashing.
 
-## Running
+You can play the game on my [GitHub Pages](https://dmfcat.github.io/canvas-car-game/).
+
+## Running Locally
 
 1. Download or clone this repo.
 
