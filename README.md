@@ -2,6 +2,8 @@
 
 An arcade inspired game made with JS and HTML canvas, playable within a web browser.
 
+<img width="850" height="530" alt="title" src="https://github.com/user-attachments/assets/a7af8fed-e617-41ba-9059-4e3f309efd05" />
+
 ## Playing
 
 The player car can be controlled with WASD or arrow keys. Earn score by avoiding traffic and not crashing.
